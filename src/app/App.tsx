@@ -1,5 +1,5 @@
 import React, {Suspense} from 'react';
-import '../styles/index.scss'
+import './styles/index.scss'
 import {Link, Route, Routes} from "react-router-dom";
 import {AboutPage, MainPage} from "pages";
 import {useTheme} from "app/provider/ThemeProvider/lib/useTheme";
